@@ -27,7 +27,13 @@
 
 <p>See the <a href="/download/numerical-integration.m">example</a> for usage.</p>
 
+<p><img src="/images/numerical-integration-in-matlab/h.svg" alt="h" /></p>
+
+<p>x is a vector of equidistant nodes.</p>
+
 <h2 id="trapezoid-rule">Trapezoid rule</h2>
+
+<p><img src="/images/numerical-integration-in-matlab/trapezoid.svg" alt="trapezoid rule" /></p>
 
 <pre><code>function t = trapezoid_rule(a,b,n)
   t = 0;
@@ -41,6 +47,8 @@ end
 
 <h2 id="simpson-s-rule">Simpson&rsquo;s rule</h2>
 
+<p><img src="/images/numerical-integration-in-matlab/simpson.svg" alt="simpson rule" /></p>
+
 <pre><code>function s = simpson_rule(a,b,n)
   s = 0;
   x = linspace(a,b,n);
@@ -53,6 +61,8 @@ end
 </code></pre>
 
 <h2 id="3-8-rule"><sup>3</sup>&frasl;<sub>8</sub> rule</h2>
+
+<p><img src="/images/numerical-integration-in-matlab/38.svg" alt="38" /></p>
 
 <pre><code>function r = rule38(a,b,n)
   r = 0;
