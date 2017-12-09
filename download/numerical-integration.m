@@ -41,12 +41,12 @@ b = 100;
 
 for i = 20:120
   simpson(i) = simpson_rule(a,b,i);
-  trapez(i) = trapezoid_rule(a,b,i);
+  trapezoid(i) = trapezoid_rule(a,b,i);
   rule(i) = rule38(a,b,i);
 end
 
 x = 20:1:120;
-plot(x,trapz(20:120));
+plot(x,trapezoid(20:120));
 plot(x,simpson(20:120));
 plot(x,rule(20:120));
 
