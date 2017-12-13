@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.arnevogel.com/standalone-concat-version/</loc>
+    <lastmod>2017-12-13T13:21:01+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.arnevogel.com/numerical-integration-in-matlab/</loc>
     <lastmod>2017-12-09T11:32:35+01:00</lastmod>
   </url>
@@ -18,7 +23,7 @@
   
   <url>
     <loc>https://www.arnevogel.com/</loc>
-    <lastmod>2017-12-09T11:32:35+01:00</lastmod>
+    <lastmod>2017-12-13T13:21:01+01:00</lastmod>
     <priority>0</priority>
   </url>
   
