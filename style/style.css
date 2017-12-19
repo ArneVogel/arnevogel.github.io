@@ -23,6 +23,7 @@ code {
 pre {
 	background-color: #f9f9f9;
 	padding-left: 8px;
+	overflow-x: scroll;
 }
 
 pre code {
@@ -113,4 +114,8 @@ hr {
     margin-bottom: 8px;
     border: 0;
     border-top: 1px solid #eee;
+}
+
+img {
+    max-width: 100%;
 }
