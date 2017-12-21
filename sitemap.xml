@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://www.arnevogel.com/denoising-functions-in-matlab-with-fft/</loc>
+    <lastmod>2017-12-22T12:44:59+01:00</lastmod>
+  </url>
   
   <url>
     <loc>https://www.arnevogel.com/standalone-concat-version/</loc>
@@ -23,7 +29,7 @@
   
   <url>
     <loc>https://www.arnevogel.com/</loc>
-    <lastmod>2017-12-13T13:21:01+01:00</lastmod>
+    <lastmod>2017-12-22T12:44:59+01:00</lastmod>
     <priority>0</priority>
   </url>
   
