@@ -55,8 +55,21 @@ RN = randn(n,1);
 NS = transpose(RN) + S;
 </code></pre>
 
-<p>The signal with added noise.
-<img src="/images/denoising-functions-in-matlab-with-fft/noisy_signal.png" alt="noisy signal" /></p>
+<p>The signal with added noise.</p>
+
+<p><img src="/images/denoising-functions-in-matlab-with-fft/noisy_signal.png" alt="noisy signal" /></p>
+
+<p>Next we get the complex fourier coefficients using fft. Those get split up into:</p>
+
+<p><img src="/images/denoising-functions-in-matlab-with-fft/ak.svg" alt="ak" /></p>
+
+<p><img src="/images/denoising-functions-in-matlab-with-fft/bk.svg" alt="bk" /></p>
+
+<p>Using ak and bk from 1 to s we can put them into the sin cos form of the fourier series.</p>
+
+<p><img src="/images/denoising-functions-in-matlab-with-fft/s.svg" alt="s" /></p>
+
+<p><img src="/images/denoising-functions-in-matlab-with-fft/fourier.svg" alt="fourier" /></p>
 
 <pre><code>% getting the complex fourier coefficients using fft
 ck = fft(NS);
@@ -82,7 +95,6 @@ for i = 1:s
 end
 
 % applying the fourier series in sin cos form
-tmp = 0;
 for i = 1:n
   y(i) = ak(1)/2;
   for j = 2:s
@@ -98,7 +110,19 @@ end
 
 <p><img src="/images/denoising-functions-in-matlab-with-fft/error.png" alt="error" /></p>
 
-<p>Doubling the noise results in a subpar result:</p>
+<p>and the relative error (discrepancies between the two result from different added noises)</p>
+
+<p><img src="/images/denoising-functions-in-matlab-with-fft/error2.png" alt="error" /></p>
+
+<p>These are the ak values if the ck values weren&rsquo;t filtered. After the filtering all the values near zero are exactly zero. This removes the noise from the generated signal.</p>
+
+<p><img src="/images/denoising-functions-in-matlab-with-fft/ak_values_pre_filter.png" alt="ak values before filtering" /></p>
+
+<p>This is what the generated signal looks like without the filtering of the fourier coefficients.</p>
+
+<p><img src="/images/denoising-functions-in-matlab-with-fft/no_filter.png" alt="no coefficient filter" /></p>
+
+<p>Doubling the noise also results in a subpar result:</p>
 
 <p><img src="/images/denoising-functions-in-matlab-with-fft/double_noise.png" alt="double noise" /></p>
 
