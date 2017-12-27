@@ -42,7 +42,6 @@ for i = 1:s
 end
 
 % applying the fourier series in sin cos form
-tmp = 0;
 for i = 1:n
   y(i) = ak(1)/2;
   for j = 2:s

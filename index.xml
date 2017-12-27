@@ -6,10 +6,20 @@
     <description>Recent content on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Dec 2017 12:44:59 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 27 Dec 2017 15:41:07 +0100</lastBuildDate>
     
 	<atom:link href="https://www.arnevogel.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Golang Cross Compiling on Ubuntu</title>
+      <link>https://www.arnevogel.com/golang-cross-compiling-on-ubuntu/</link>
+      <pubDate>Wed, 27 Dec 2017 15:41:07 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/golang-cross-compiling-on-ubuntu/</guid>
+      <description>Cross compiling a golang project on Ubuntu is as easy as building the project for ubuntu itself. Golang makes it easy to cross compile for many platforms and architecture types. When you want to cross compile your go project you only have to set the GOOS and GOARCH variables and go will handle the rest.
+In your project folder typing go build will build it for the platform and architecture of the computer you currently are on.</description>
+    </item>
     
     <item>
       <title>Denoising Functions in Matlab With FFT</title>
