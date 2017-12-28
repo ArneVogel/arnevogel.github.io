@@ -6,10 +6,20 @@
     <description>Recent content on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Dec 2017 15:41:07 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 28 Dec 2017 17:07:28 +0100</lastBuildDate>
     
 	<atom:link href="https://www.arnevogel.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Applying Benfords Law</title>
+      <link>https://www.arnevogel.com/applying-benfords-law/</link>
+      <pubDate>Thu, 28 Dec 2017 17:07:28 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/applying-benfords-law/</guid>
+      <description>NFL Salary Data Salary data from 1765 NFL players. Numbers starting with digit 1 to 9: 310, 109, 114, 361, 276, 315, 132, 67, 81.
+Since most of the players earn less then a million dollar the distribution of salary numbers is not enough dispersed for the salary numbers to follow Benford&amp;rsquo;s law. Because many players earn between $400,000 and $600,000 the digits 5, 6, 7 are over represented while digits 1, 2, 3 are under represented.</description>
+    </item>
     
     <item>
       <title>Golang Cross Compiling on Ubuntu</title>
