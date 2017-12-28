@@ -17,8 +17,9 @@
       <pubDate>Thu, 28 Dec 2017 17:07:28 +0100</pubDate>
       
       <guid>https://www.arnevogel.com/applying-benfords-law/</guid>
-      <description>NFL Salary Data Salary data from 1765 NFL players. Numbers starting with digit 1 to 9: 310, 109, 114, 361, 276, 315, 132, 67, 81.
-Since most of the players earn less then a million dollar the distribution of salary numbers is not enough dispersed for the salary numbers to follow Benford&amp;rsquo;s law. Because many players earn between $400,000 and $600,000 the digits 5, 6, 7 are over represented while digits 1, 2, 3 are under represented.</description>
+      <description>If you don&amp;rsquo;t know about Benford&amp;rsquo;s law here is a quick summary:
+In numerical data the frequency distribution of the leading digits it not an equal distribution. The lower the digit the more likely it is to appear as leading digit in the data. For example in base 10: Numbers with the initial digit 1 occur about 6.6 times as often as numbers with the initial digit 9.
+For more information check out the extensive Wikipedia page about Benford&amp;rsquo;s law.</description>
     </item>
     
     <item>
