@@ -6,10 +6,21 @@
     <description>Recent content on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Dec 2017 17:07:28 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 30 Dec 2017 17:54:49 +0100</lastBuildDate>
     
 	<atom:link href="https://www.arnevogel.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Analyzing Hacker News &#34;Who Is Hiring&#34; Threads</title>
+      <link>https://www.arnevogel.com/analyzing-hacker-news-who-is-hiring-threads/</link>
+      <pubDate>Sat, 30 Dec 2017 17:54:49 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/analyzing-hacker-news-who-is-hiring-threads/</guid>
+      <description>Analyzing 41194 comments and 6367099 words posted in Hacker News &amp;ldquo;Who is Hiring&amp;rdquo; threads. If you don&amp;rsquo;t know what those threads are here is the latest one: Ask HN: Who is hiring? (December 2017)
+In these threads companies can self promote their job offerings and in doing to they describe the jobs they are offering.
+In this post I show the most interesting things I found while playing around with the data.</description>
+    </item>
     
     <item>
       <title>Applying Benfords Law</title>
