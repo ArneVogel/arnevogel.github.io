@@ -28,8 +28,6 @@
 <span class="list-date">Jan 1, 2018 • Arne Vogel</span>
 
 
-<p>$e^{\pi i} + 1 = 0$</p>
-
 <h2 id="automata-and-formal-languages">Automata and Formal Languages</h2>
 
 <h3 id="formal-languages">Formal Languages</h3>
@@ -57,6 +55,70 @@ $$V_1 = V$$</p>
 
 <p>A <strong>Formal language</strong> <em>L</em> over an alphabet $\Sigma$, is a subset of $\Sigma^*$.</p>
 
+<p>Example: $\Sigma = \{a,b,c\}$. One viable language would be $L_1 = \{aa,ab,bb,bc,abc,cc\}$. $L_1$ has $6$ elements. Another language for the same alphabet could be $L_2 = \{a^n b^n c^n | n \in \mathbb{N}\}$. $L_1$ is defined by it&rsquo;s elements. $L_2$ on the other hand is defined by how to build words that are in $L_2$. $L_2 = \{abc,aabbcc,aaabbbccc, \dots\}$.</p>
+
+<h2 id="automata">Automata</h2>
+
+<h3 id="deterministic-finite-automaton-dfa">Deterministic Finite Automaton DFA</h3>
+
+<p>DFA&rsquo;s are used to determine if a word $w$ is element of an language $L$. A deterministic finite automaton is defined as ${\mathfrak  {A}}=\left(Q,\,\Sigma ,\,\delta ,\,q_{0},\,F\right)$.</p>
+
+<ul>
+<li>$Q$ is the finite number of states of the DFA</li>
+<li>$\Sigma$ is an alphabet</li>
+<li>$\delta$ is a transition function $\delta :Q\times \Sigma \rightarrow Q$</li>
+<li>$q_0$ is the start state of the DFA $q_0 \in Q$</li>
+<li>$F$ is a set of final states $F \subseteq Q$</li>
+</ul>
+
+<p>Example:</p>
+
+<p><img src="/images/theoretical-computer-science-cheat-sheet/DFA.svg" alt="DFA" /></p>
+
+<p>This DFA accepts binary numbers that are multiples of 3. $Q = \{S_0, S_1, S_2\}$, $\Sigma = \{0,1\}$,</p>
+
+<p>$\delta =$</p>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th>$0$</th>
+<th>$1$</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><strong>$S_0$</strong></td>
+<td>$S_0$</td>
+<td>$S_1$</td>
+</tr>
+
+<tr>
+<td><strong>$S_1$</strong></td>
+<td>$S_2$</td>
+<td>$S_0$</td>
+</tr>
+
+<tr>
+<td><strong>$S_2$</strong></td>
+<td>$S_1$</td>
+<td>$S_2$</td>
+</tr>
+</tbody>
+</table>
+
+<p>$q_0 = S_0$, $F = \{S_0\}$.</p>
+
+<h3 id="nondeterministic-finite-automaton-nfa">Nondeterministic Finite Automaton NFA</h3>
+
+<p>In a NFA there can be states where you can choose from different options to &ldquo;move&rdquo; through the NFA. This makes the NFA non-deterministic because the &ldquo;path&rdquo; is not set in stone. Every DFA is automatically a NFA but not every NFA is a DFA.</p>
+
+<p><img src="/images/theoretical-computer-science-cheat-sheet/NFA.svg" alt="NFA" /></p>
+
+<p>In this example you can choose to stay in $S_0$ when you read a $1$ or you can choose to move to $S_1$. This means the NFA only accepts words that end with a $1$.</p>
+
 
 
 
@@ -82,9 +144,7 @@ $$V_1 = V$$</p>
 	showMathMenu: false,
 	
     skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-	jax: ["input/TeX","output/SVG"],
-    TeX: { equationNumbers: { autoNumber: "AMS" },
-         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+	jax: ["input/TeX","output/SVG"]
   }
   });
   MathJax.Hub.Queue(function() {

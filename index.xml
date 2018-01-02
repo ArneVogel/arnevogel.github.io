@@ -6,10 +6,20 @@
     <description>Recent content on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jan 2018 17:33:55 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jan 2018 01:50:47 +0100</lastBuildDate>
     
 	<atom:link href="https://www.arnevogel.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MathJax Minimum Viable Installation</title>
+      <link>https://www.arnevogel.com/mathjax-minimum-viable-installation/</link>
+      <pubDate>Tue, 02 Jan 2018 01:50:47 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/mathjax-minimum-viable-installation/</guid>
+      <description>Downloading a local copy of MathJax gives you over 60mb in 30.000 files. If you want to use this on your webserver or don&amp;rsquo;t want 30.000 files on your local copy this can be a problem. Luckily many files can be cut without affecting MathJax&amp;rsquo;s functionality. For example for this website my MathJax folder has only 47 files in 12 folders and is only 948kb big.
+Things to cut for free Some of the files you get don&amp;rsquo;t add any functionality and are only for development or documentation reasons in the zip.</description>
+    </item>
     
     <item>
       <title>Theoretical Computer Science Cheat Sheet</title>
@@ -17,8 +27,7 @@
       <pubDate>Mon, 01 Jan 2018 17:33:55 +0100</pubDate>
       
       <guid>https://www.arnevogel.com/theoretical-computer-science-cheat-sheet/</guid>
-      <description>$e^{\pi i} + 1 = 0$
-Automata and Formal Languages Formal Languages An alphabet $\Sigma$ is a finite set of symbols. For example $\{0,1\}$ is an alphabet and $\{a,b,c,d\}$ is an alphabet. An word is a finite set of symbols from an alphabet $\Sigma$. One word for the alphabet $\{a,b,c,d\}$ would be $abc$ and another one would be $aaab$. The length of a word $w$ is defined as the number of symbols it has.</description>
+      <description>Automata and Formal Languages Formal Languages An alphabet $\Sigma$ is a finite set of symbols. For example $\{0,1\}$ is an alphabet and $\{a,b,c,d\}$ is an alphabet. An word is a finite set of symbols from an alphabet $\Sigma$. One word for the alphabet $\{a,b,c,d\}$ would be $abc$ and another one would be $aaab$. The length of a word $w$ is defined as the number of symbols it has. So the length of the word $01010$ from the alphabet $\{0,1\}$ would be $5$.</description>
     </item>
     
     <item>
