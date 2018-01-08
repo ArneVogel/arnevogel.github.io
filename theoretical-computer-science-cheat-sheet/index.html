@@ -90,7 +90,7 @@ $$V_1 = V$$</p>
 
 <tbody>
 <tr>
-<td><strong>$S_0$</strong></td>
+<td><strong>$\rightarrow S_0^*$</strong></td>
 <td>$S_0$</td>
 <td>$S_1$</td>
 </tr>
@@ -111,6 +111,8 @@ $$V_1 = V$$</p>
 
 <p>$q_0 = S_0$, $F = \{S_0\}$.</p>
 
+<p>In the transfer table a state with $\rightarrow$ in front it means its a start state. The other symbol $^*$ means its a final state.</p>
+
 <h3 id="nondeterministic-finite-automaton-nfa">Nondeterministic Finite Automaton NFA</h3>
 
 <p>In a NFA there can be states where you can choose from different options to &ldquo;move&rdquo; through the NFA. This makes the NFA non-deterministic because the &ldquo;path&rdquo; is not set in stone. Every DFA is automatically a NFA but not every NFA is a DFA.</p>
@@ -118,6 +120,68 @@ $$V_1 = V$$</p>
 <p><img src="/images/theoretical-computer-science-cheat-sheet/NFA.svg" alt="NFA" /></p>
 
 <p>In this example you can choose to stay in $S_0$ when you read a $1$ or you can choose to move to $S_1$. This means the NFA only accepts words that end with a $1$.</p>
+
+<p>The transfer table for the NFA:</p>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th>0</th>
+<th>1</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>$\rightarrow S_0$</td>
+<td>$S_0$</td>
+<td>$\{S_0, S_1\}$</td>
+</tr>
+
+<tr>
+<td>$S_1^*$</td>
+<td>$\varnothing$</td>
+<td>$\varnothing$</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="converting-nfa-to-dfa">Converting NFA to DFA</h3>
+
+<p>Take the transfer table from the NFA and take the start state and look where it leads for each symbol and make a new set from them. If the set contains a final state also make the new state a final state. Repeat that for each new set until no set wasn&rsquo;t handled.</p>
+
+<p>If you want you can rename the sets afterwards.</p>
+
+<p>Example with the NFA from above:</p>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th>$0$</th>
+<th>$1$</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>$\rightarrow S_0$</td>
+<td>$S_0$</td>
+<td>$\{S_0, S_1\}$</td>
+</tr>
+
+<tr>
+<td>$\{S_0, S_1\}^*$</td>
+<td>$S_0$</td>
+<td>$\{S_0, S_1\}$</td>
+</tr>
+</tbody>
+</table>
+
+<p>The resulting DFA from the NFA:</p>
+
+<p><img src="/images/theoretical-computer-science-cheat-sheet/DFAfromNFA.svg" alt="DNA from an NFA" /></p>
 
 
 
@@ -129,7 +193,8 @@ $$V_1 = V$$</p>
 </div>
 		<footer class="site-footer">
 	<div class="wrapper">
-		Copyright - Arne Vogel 2017
+		© Copyright - Arne Vogel<br>
+		See <a href="/license/">License</a> for more details
 	</div>
 	
 	<script type="text/javascript" async src="/MathJax/MathJax.js?config=TeX-AMS_SVG">

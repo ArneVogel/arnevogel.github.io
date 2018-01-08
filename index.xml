@@ -6,10 +6,21 @@
     <description>Recent content on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Jan 2018 01:50:47 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jan 2018 00:49:45 +0100</lastBuildDate>
     
 	<atom:link href="https://www.arnevogel.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>License</title>
+      <link>https://www.arnevogel.com/license/</link>
+      <pubDate>Fri, 05 Jan 2018 00:49:45 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/license/</guid>
+      <description>Text and Images Text and images are, unless otherwise noted, licensed under CC BY-SA 4.0
+Code Code on this site, everything between the html &amp;lt;code&amp;gt;&amp;lt;/code&amp;gt; tags, is licensed, unless otherwise noted, under X11, Apache 2.0 and GPLv3 license. You can choose yourself which license is most suitable for your need.
+MathJax Some pages on this site use MathJax to render LaTeX. MathJax is licensed under Apache 2.0, you can find the source code on the MathJax GitHub page.</description>
+    </item>
     
     <item>
       <title>MathJax Minimum Viable Installation</title>
