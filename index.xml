@@ -6,17 +6,12 @@
     <description>Recent content on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-<<<<<<< HEAD
     <lastBuildDate>Wed, 10 Jan 2018 11:03:35 +0100</lastBuildDate>
-=======
-    <lastBuildDate>Fri, 05 Jan 2018 00:49:45 +0100</lastBuildDate>
->>>>>>> 969734b5386b77fb431c5931ee7119a47f19d063
     
 	<atom:link href="https://www.arnevogel.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-<<<<<<< HEAD
       <title>Installing Latest Golang Version on Ubuntu</title>
       <link>https://www.arnevogel.com/installing-latest-golang-version-on-ubuntu/</link>
       <pubDate>Wed, 10 Jan 2018 11:03:35 +0100</pubDate>
@@ -27,8 +22,6 @@ $go version The program &#39;go&#39; is currently not installed. You can install
     </item>
     
     <item>
-=======
->>>>>>> 969734b5386b77fb431c5931ee7119a47f19d063
       <title>License</title>
       <link>https://www.arnevogel.com/license/</link>
       <pubDate>Fri, 05 Jan 2018 00:49:45 +0100</pubDate>
