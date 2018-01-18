@@ -6,10 +6,24 @@
     <description>Recent content on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Jan 2018 11:03:35 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jan 2018 11:56:52 +0100</lastBuildDate>
     
 	<atom:link href="https://www.arnevogel.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Using Postgresql on Ubuntu</title>
+      <link>https://www.arnevogel.com/using-postgresql-on-ubuntu/</link>
+      <pubDate>Thu, 18 Jan 2018 11:56:52 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/using-postgresql-on-ubuntu/</guid>
+      <description>Logging into psql as postgres user:
+sudo -u postgres psql  Switching databases:
+\c [DB NAME]  Executing an example query:
+SELECT * from user;  Note that SELECT has to be capitalized, otherwise it will result in a syntac error. Also don&amp;rsquo;t forget the ; at the end of the query.
+Exiting psql:
+\q  </description>
+    </item>
     
     <item>
       <title>Installing Latest Golang Version on Ubuntu</title>
