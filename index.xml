@@ -6,10 +6,23 @@
     <description>Recent content on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jan 2018 11:56:52 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jan 2018 16:18:43 +0100</lastBuildDate>
     
 	<atom:link href="https://www.arnevogel.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Newton Raphson Method</title>
+      <link>https://www.arnevogel.com/newton-raphson-method/</link>
+      <pubDate>Tue, 23 Jan 2018 16:18:43 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/newton-raphson-method/</guid>
+      <description>The Newton-Raphson method (named after Isaac Newton 1669 and Joseph Raphson 1690) is a method for generating a numerical sulution for systems of equations.
+Example for f(x) = -1&amp;frasl;4*x^4+5&amp;frasl;2*x^3-7*x^2+8*x-1, x0 = 2 and eps = 0.1 generated with MatLab:
+Your browser doesn&#39;t seem to support the \ tag. Direct link to the video: newton-raphson-approximation.webm
+ Newton Raphson Method in MatLab MatLab implementation for :
+function y = newton_raphson_method(f,x,x0,eps) fx = jacobian(f,x); v = num2cell(x0); b = f(v{:}); while norm(b) &amp;gt; eps d = fx(v{:})\f(v{:}); x0 = x0 - d; v = num2cell(x0); b = f(v{:}); end y = x0; end  Note that the MatLab implementation doesn&amp;rsquo;t exit when the function has no root.</description>
+    </item>
     
     <item>
       <title>Using Postgresql on Ubuntu</title>
