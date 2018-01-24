@@ -6,10 +6,24 @@
     <description>Recent content on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Jan 2018 16:18:43 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jan 2018 12:45:56 +0100</lastBuildDate>
     
 	<atom:link href="https://www.arnevogel.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Taylor Series</title>
+      <link>https://www.arnevogel.com/taylor-series/</link>
+      <pubDate>Wed, 24 Jan 2018 12:45:56 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/taylor-series/</guid>
+      <description>Taylor series approximation for sin exp log cos and tan.
+Generated with: taylorseries.m and ffmpeg
+Your browser doesn&#39;t seem to support the \ tag. Direct link to the video: newton-raphson-approximation.webm
+ Your browser doesn&#39;t seem to support the \ tag. Direct link to the video: newton-raphson-approximation.webm
+ Your browser doesn&#39;t seem to support the \ tag. Direct link to the video: newton-raphson-approximation.webm
+ Your browser doesn&#39;t seem to support the \ tag.</description>
+    </item>
     
     <item>
       <title>Newton Raphson Method</title>
