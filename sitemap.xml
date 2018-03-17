@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://www.arnevogel.com/regionalbahn-between-bremen-and-hannover/</loc>
+    <lastmod>2018-03-17T16:25:15+01:00</lastmod>
+  </url>
   
   <url>
     <loc>https://www.arnevogel.com/logging-twitch-subscriptions-for-one-month/</loc>
@@ -83,7 +89,7 @@
   
   <url>
     <loc>https://www.arnevogel.com/</loc>
-    <lastmod>2018-02-10T13:38:00+01:00</lastmod>
+    <lastmod>2018-03-17T16:25:15+01:00</lastmod>
     <priority>0</priority>
   </url>
   
