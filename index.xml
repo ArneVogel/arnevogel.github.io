@@ -6,10 +6,19 @@
     <description>Recent content on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Mar 2018 16:25:15 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 01 Apr 2018 13:49:44 +0200</lastBuildDate>
     
 	<atom:link href="https://www.arnevogel.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Categories</title>
+      <link>https://www.arnevogel.com/categories/</link>
+      <pubDate>Sun, 01 Apr 2018 13:49:44 +0200</pubDate>
+      
+      <guid>https://www.arnevogel.com/categories/</guid>
+      <description>Cheat-SheetGoMathMatlabNumericPostgresqlPythonRTheoretical-Computer-ScienceTwitchUbuntuVisualization </description>
+    </item>
     
     <item>
       <title>Regionalbahn Between Bremen and Hannover</title>
@@ -58,6 +67,15 @@ Example for f(x) = -1&amp;frasl;4*x^4+5&amp;frasl;2*x^3-7*x^2+8*x-1, x0 = 2 and 
 Your browser doesn&#39;t seem to support the \ tag. Direct link to the video: newton-raphson-approximation.webm
  Newton Raphson Method in MatLab MatLab implementation for :
 function y = newton_raphson_method(f,x,x0,eps) fx = jacobian(f,x); v = num2cell(x0); b = f(v{:}); while norm(b) &amp;gt; eps d = fx(v{:})\f(v{:}); x0 = x0 - d; v = num2cell(x0); b = f(v{:}); end y = x0; end  Note that the MatLab implementation doesn&amp;rsquo;t exit when the function has no root.</description>
+    </item>
+    
+    <item>
+      <title>Numerical Analysis Cheat Sheet</title>
+      <link>https://www.arnevogel.com/numerical-analysis-cheat-sheet/</link>
+      <pubDate>Sun, 21 Jan 2018 15:11:39 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/numerical-analysis-cheat-sheet/</guid>
+      <description>Error Analysis Machine Numbers A set of machine numbers $\mathbb{M}(b,m,e)$ is composed of three parts, $b$ the base of the number, $m$ the number of digits in the mantissa and $e$ the number of digits for the exponent. $\mathbb{M}(10,3,1)$ contains the machine numbers with base 10 that have three digits for the mantissa and 1 digit for the exponent. One such number would be +102 +3 where +102 is the mantissa and +3 is the exponent.</description>
     </item>
     
     <item>
