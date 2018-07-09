@@ -331,3 +331,15 @@ function print_text(t) {
 function append_text(t) {
 	document.getElementById("pcp_result").innerHTML += t;
 }
+
+function example1() {
+	print_text("");
+	document.getElementById("pcp_input").innerHTML = "1 101\n10 00\n011 11"
+	document.getElementById("depth").value = "6"
+}
+
+function example2() {
+	print_text("");
+	document.getElementById("pcp_input").innerHTML = "001 0\n01 011\n01 101\n10 001"
+	document.getElementById("depth").value = "70"
+}
